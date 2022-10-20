@@ -1,6 +1,6 @@
 # Middleware / Modern Software Architecture - Winter Semester 2022 - HfT
 
-## Session 26-Sep-2022 Distributed Systems & Cloud Computing Introduction
+## Session 07-Oct-2022 Distributed Systems & Cloud Computing Introduction
 
 ### Intro questions:
 
