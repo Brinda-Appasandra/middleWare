@@ -31,3 +31,30 @@ cloud computing in own words and list examples for offerings, topologies and tec
 ### Lookout on Lab activities
 
 ![Lab topics](pics/lab_lookout.png)
+
+## Session 14-Oct-2022 Docker Exercises (unattended lecture)
+
+* https://hfthse.trainings.nvtc.io/
+
+## Session 21-Oct-2022 Container Technology
+
+![Container Options](pics/container_1.png)
+
+-   What are containers and how do they work
+-   Containers vs. VMs
+-   History of containers and rise of Docker
+-   Docker concepts: daemon, hub, dockerfile, CLI
+-   Running containers with various options
+
+![Container Big Picture](pics/container_2.png)
+
+### Objectives and exercises
+
+_The student understands the concepts and use cases of container technology and is able to describe them. The first exercise is to pull sample images from an image registry (e.g. Docker Hub) and interact with them (run, expose port, execute shell, cleanup etc). After that the student can show how to build a custom image via Dockerfile and push it to a registry for others to access. Complete the exercises handed out via URL._
+
+### Links
+
+-   [https://labs.play-with-docker.com/](https://labs.play-with-docker.com/)
+-   [https://opencontainers.org/](https://opencontainers.org/) 
+-   [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)  
+-   [https://www.youtube.com/watch?v=fqMOX6JJhGo](https://www.youtube.com/watch?v=fqMOX6JJhGo)
