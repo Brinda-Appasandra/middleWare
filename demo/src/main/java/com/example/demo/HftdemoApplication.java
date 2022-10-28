@@ -16,6 +16,8 @@ public class HftdemoApplication {
 		return "Good morning lovely people of HfT Stuttgart";
 	}
 
+	
+
 	public static void main(String[] args) {
 		SpringApplication.run(HftdemoApplication.class, args);
 	}

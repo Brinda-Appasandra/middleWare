@@ -60,3 +60,17 @@ _The student understands the concepts and use cases of container technology and 
 -   [https://www.youtube.com/watch?v=fqMOX6JJhGo](https://www.youtube.com/watch?v=fqMOX6JJhGo)
 
 ## Session 28-Oct-2022 Introduction to Spring Boot
+
+### Exercises
+
+Basic setup:
+
+- Set up an own gitlab or github repository
+- Either set up an own local Java IDE or use gitpod.io
+
+Application:
+
+- Build your own first Spring Boot Hello, World application
+- Change name, Java version, build tool, dependencies. Observe changes
+- Use the following deps: Web, Actuator, DevTools
+- Annotate a class with @RestController and expose "some" Rest Mappings
