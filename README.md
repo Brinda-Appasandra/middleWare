@@ -68,6 +68,12 @@ Basic setup:
 - Set up an own gitlab or github repository
 - Either set up an own local Java IDE or use gitpod.io
 
+Helpful Links:
+
+- https://github.com/
+- https://gitlab.com/
+- https://gitpod.io/
+
 Application:
 
 - Build your own first Spring Boot Hello, World application at 
@@ -77,3 +83,11 @@ Application:
 - Annotate a class with @RestController and expose "some" Rest Mappings
 - Experiment with other Mappings, e.g. @GetMapping, @PostMapping
 - Pass a parameter via @PathVariable
+
+Helpful Links:
+
+- https://start.spring.io
+- https://www.baeldung.com/spring-requestmapping
+
+- https://spring.io/guides#getting-started-guides
+- Full tutorial (stuff for next weeks): https://www.baeldung.com/spring-boot-start
