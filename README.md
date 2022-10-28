@@ -73,6 +73,7 @@ Helpful Links:
 - https://github.com/
 - https://gitlab.com/
 - https://gitpod.io/
+- https://www.gitpod.io/docs/introduction/languages/java
 
 Application:
 
@@ -88,6 +89,5 @@ Helpful Links:
 
 - https://start.spring.io
 - https://www.baeldung.com/spring-requestmapping
-
 - https://spring.io/guides#getting-started-guides
 - Full tutorial (stuff for next weeks): https://www.baeldung.com/spring-boot-start
