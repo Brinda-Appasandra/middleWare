@@ -74,3 +74,5 @@ Application:
 - Change name, Java version, build tool, dependencies. Observe changes
 - Use the following deps: Web, Actuator, DevTools
 - Annotate a class with @RestController and expose "some" Rest Mappings
+- Experiment with other Mappings, e.g. @GetMapping, @PostMapping
+- Pass a parameter via @PathVariable
