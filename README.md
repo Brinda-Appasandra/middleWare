@@ -70,7 +70,8 @@ Basic setup:
 
 Application:
 
-- Build your own first Spring Boot Hello, World application
+- Build your own first Spring Boot Hello, World application at 
+- https://start.spring.io
 - Change name, Java version, build tool, dependencies. Observe changes
 - Use the following deps: Web, Actuator, DevTools
 - Annotate a class with @RestController and expose "some" Rest Mappings
