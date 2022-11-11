@@ -91,3 +91,7 @@ Helpful Links:
 - https://www.baeldung.com/spring-requestmapping
 - https://spring.io/guides#getting-started-guides
 - Full tutorial (stuff for next weeks): https://www.baeldung.com/spring-boot-start
+
+## Session 11-Nov-2022 Frontend <- REST -> Backend Options: OpenAPI, Swagger, Thymeleaf, WebClient
+
+![REST Communication Options](pics/frontend_backend.png)
