@@ -1,0 +1,8 @@
+sdk install java 17.0.5-tem
+
+Open API Endpoints:
+https://8090-maeddes-hft2022winter-8oa07tyvhc9.ws-eu75.gitpod.io/v3/api-docs/
+
+spring.io sample with RestTemplate: https://spring.io/guides/gs/consuming-rest/
+baeldung Rest Template: https://www.baeldung.com/rest-template
+baeldung Web Client: https://www.baeldung.com/spring-5-webclient
