@@ -22,7 +22,7 @@ import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import org.springframework.http.HttpStatus;
 
 @RestController
-@RequestMapping("/todos")
+@RequestMapping("/old/todos")
 public class TodoController {
 
     private ArrayList<Todo> items = new ArrayList<Todo>();
