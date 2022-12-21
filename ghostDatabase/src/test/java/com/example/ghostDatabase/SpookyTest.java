@@ -1,13 +1,7 @@
 package com.example.ghostDatabase;
 
-import static org.assertj.core.api.Assertions.as;
 import static org.assertj.core.api.Assertions.assertThat;
 
-import com.example.ghostDatabase.rest.Ghost;
-import com.example.ghostDatabase.rest.GhostType;
-import com.example.ghostDatabase.rest.SpookyController;
-import com.example.ghostDatabase.rest.ThreadLevel;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.http.HttpStatus;
@@ -16,6 +10,12 @@ import org.springframework.mock.web.MockHttpServletResponse;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+
+import com.example.ghostDatabase.rest.Ghost;
+import com.example.ghostDatabase.rest.GhostType;
+import com.example.ghostDatabase.rest.SpookyController;
+import com.example.ghostDatabase.rest.ThreadLevel;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class SpookyTest {
 
