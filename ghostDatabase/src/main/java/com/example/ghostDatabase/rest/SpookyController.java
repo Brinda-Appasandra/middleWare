@@ -36,7 +36,7 @@ public class SpookyController {
 
   @PutMapping("ghost")
   public Ghost setGhost(@RequestBody Ghost ghost){
-    Ghost oldGhost = ghosts.get(ghost.getName());
+    //Ghost oldGhost = ghosts.get(ghost.getName());
     ghosts.put(ghost.getName(), ghost);
     return ghost;
   }
