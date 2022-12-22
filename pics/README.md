@@ -1,15 +1,14 @@
-# Middleware / Modern Software Architecture - Winter Semester 2022 - HfT
+# Distributed Systems Lecture - Winter Semester 2022 - HSE
 
-## Session 07-Oct-2022 Distributed Systems & Cloud Computing Introduction
+## Session 26-Sep-2022 Distributed Systems & Cloud Computing Introduction
 
 ### Intro questions:
 
-* Which technologies or what do you have in mind in general if you think about "middleware" or "modern software architecture"?
-* the "WHY" - Why would people use and implement a "modern middleware" architecture?
+* Which technologies or what do you have in mind in general if you think about "distributed systems"?
+* the "WHY" - Why would people use and implement a distributed systems architecture?
 
-![Initial Brainstorm](pics/brainstorm_msa_mw.png)
+![Initial Brainstorm](pics/distributed_systems_initial_braindump.png)
 
-![Horizontal and Vertical](pics/middleware.png)
 ### Content
 
 * Why distributed systems?
@@ -36,36 +35,30 @@ cloud computing in own words and list examples for offerings, topologies and tec
 * https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-dev-pack
 * https://www.gitpod.io
 
-### Lookout on Lab activities
+### Review questions
 
-![Lab topics](pics/lab_lookout.png)
+* "WHY" Cloud? Explain advantages (and disadvantages) IN YOUR OWN WORDS!
+* Sketch a Cloud abstraction layer diagram and provide technology/provider samples for each
+* "aas" - Explain the term service as opposed to a product (in the context of cloud)
 
-## Session 14-Oct-2022 Docker Exercises (unattended lecture)
+## Session 10-Oct-2022 Container & Docker
 
-* https://hfthse.trainings.nvtc.io/
+* What are containers and how do they work?
+* Containers vs. VMs
+* History of containers and rise of Docker
+* Docker concepts: daemon, hub, dockerfile, CLI
+* Running containers with various options
 
-## Session 21-Oct-2022 Container Technology
+![Docker Components & API](pics/docker_components_flow_2022_10_10.png)
 
-![Container Options](pics/container_1.png)
-
--   What are containers and how do they work
--   Containers vs. VMs
--   History of containers and rise of Docker
--   Docker concepts: daemon, hub, dockerfile, CLI
--   Running containers with various options
-
-![Container Big Picture](pics/container_2.png)
-
-### Objectives and exercises
+### Objectives
 
 _The student understands the concepts and use cases of container technology and is able to describe them. The first exercise is to pull sample images from an image registry (e.g. Docker Hub) and interact with them (run, expose port, execute shell, cleanup etc). After that the student can show how to build a custom image via Dockerfile and push it to a registry for others to access. Complete the exercises handed out via URL._
 
-### Links
+### Exercises/Lab task
 
--   [https://labs.play-with-docker.com/](https://labs.play-with-docker.com/)
--   [https://opencontainers.org/](https://opencontainers.org/) 
--   [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)  
--   [https://www.youtube.com/watch?v=fqMOX6JJhGo](https://www.youtube.com/watch?v=fqMOX6JJhGo)
+* Create or get yourself a Docker Id (https://www.docker.com)
+* Do the container lab given at: https://hfthse.trainings.nvtc.io/
 
 ### Review questions
 
@@ -78,7 +71,7 @@ _The student understands the concepts and use cases of container technology and 
 * What are the Docker components and describe them?
 * What does docker exec do? Provide a pseudo-code example and explain what it does 
 
-## Session 28-Oct-2022 Introduction to Spring Boot
+## Session 17-Oct-2022 Introduction to Spring and Spring Boot
 
 * Background: Spring Framework - History & components
 * Spring ← → Spring Boot
@@ -93,38 +86,32 @@ _The student understands the concepts and use cases of container technology and 
 
 The student is able to build and configure an own Spring Boot application from scratch with the IDE of choice. The exercise is to build an own "Hello, World!" application that exposes various - endpoints and is able to execute CRUD operations on the state of the application. Optional: Add logging and testing, configure Actuator.
 
-### Exercises
+### Exercises/Lab task
 
-Basic setup:
+* Create a first project from Spring Initializr at: https://start.spring.io/
+* Edit in your editor of choice.
+* Optional: Try gitpod as cloud-based editor https://gitpod.io/
+* Experiment with starter dependencies. Recommended: Spring Web, Actuator, DevTools
+* Expose a public REST endpoint for a GET Call.
+* Pass a variable to the application using the @PathVariable annotation.
 
-- Set up an own gitlab or github repository
-- Either set up an own local Java IDE or use gitpod.io
+### Links
 
-Helpful Links:
+* https://start.spring.io/
+* https://gitpod.io/
+* https://spring.io/guides/gs/rest-service/ (or basically Spring Guides in general)
+* https://www.baeldung.com/spring-pathvariable (or basically all Baeldung guides)
 
-- https://github.com/
-- https://gitlab.com/
-- https://gitpod.io/
-- https://www.gitpod.io/docs/introduction/languages/java
+### Review questions
 
-Application:
+* "WHY" Spring Boot? "WHY" Frameworks?
+* What is the difference (and common aspects) between Spring and Spring Boot?
+* What is the web page to start building your spring boot apps?
+* What kind of things can you configure on that Initializr? 
+* What is the role of the Actuator?
+* If you don't know the actuator list 3 other starter dependencies and explain briefly what they do?
 
-- Build your own first Spring Boot Hello, World application at 
-- https://start.spring.io
-- Change name, Java version, build tool, dependencies. Observe changes
-- Use the following deps: Web, Actuator, DevTools
-- Annotate a class with @RestController and expose "some" Rest Mappings
-- Experiment with other Mappings, e.g. @GetMapping, @PostMapping
-- Pass a parameter via @PathVariable
-
-Helpful Links:
-
-- https://start.spring.io
-- https://www.baeldung.com/spring-requestmapping
-- https://spring.io/guides#getting-started-guides
-- Full tutorial (stuff for next weeks): https://www.baeldung.com/spring-boot-start
-
-## Session 04-Nov-2022 
+## Session 24-Oct-2022 API, Rest & HTTP
 
 * Synchronous communication
 * HTTP and REST
@@ -168,42 +155,22 @@ Links:
 * Describe the concepts of Verbs and Nouns
 * When is an invocation idempotent and safe? What does it mean? Provide examples
 * Describe in your own words the mapping of REST calls to database (SQL) and CRUD calls
+## Session 31-Oct-2022 API, Rest & HTTP continued
 
-## Session 11-Nov-2022 Frontend <- REST -> Backend Options: OpenAPI, Swagger, Thymeleaf, WebClient
+![API Developed](pics/spring_boot_full_and_documented_rest_api_2022_11.png)
 
-![REST Communication Options](pics/frontend_backend.png)
+### Exercise/Lab Task
 
-## Session 18-Nov-2022 Persistence & Spring Data JPA
+* Watch the video I uploaded :-)
+* Exercises given there
 
-* Spring Data
-* Concept of entities and repositories
-* JPA and JDBC basics
-* H2, PostgeSQL, MySQL - configuration via Spring Boot profiles
-* Running databases as Docker images
+## Session 07-Nov-2022 Frontend & Backend
 
-![Spring Data Components](pics/spring_data_overview.png)
+![Client/Server](pics/spring_boot_api_webclient_server_2022_10_24.png)
 
-### Objectives and exercises
-_The student is able to build a Spring Boot application (or extend an existing one) with Spring Data configuration. The exercise is to create an application, which performs CRUD operations on a database backend. The database can either be in-memory (H2) or a (containerized) PostgreSQL. Optional: Provide a docker-compose file to stand up a multi-container environment with application and database._
+## Session 14-Nov-2022 Microservices (Theory)
 
-### Review Questions
-
-* "WHY" persistence? "WHY" persistence frameworks like JPA?
-* Describe the necessary components to build an application with Spring Data? Potentially sketch
-* What does the annotation @Entity do? 
-* How could docker compose help if you have a persistence-based application?
-
-## Session 09-Dec-2022 Advanced Docker - docker-compose & network
-
-![Docker simplified image build and push mechanism](pics/docker_simplified_image_build_and_push.excalidraw.png)
-
-![Docker run and equivalent docker-compose file simplified](pics/docker_run_vs_compose.excalidraw.png)
-
-## Session 16-Dec-2022 Advanced Docker - volumes & docker-compose recap
-
-![Docker & Microservice full landscape](pics/full_landscape_docker_and_microservices.excalidraw.png)
-
-## Session 23-Dec-2022 Microservices (Theory)
+![CAP Theorem](pics/docker_loadbalancer_haproxy_2022_11_28.png)
 
 * CAP Theorem
 * Conway's Law
@@ -225,3 +192,42 @@ _The student knows about the evolution of distributed systems (and middleware) a
 * How do the 12-factor application "methodology" relate to the technologies that we covered in this semester? (important)
 * "WHY" is external configuration important in cloud-native software?
 * Where did you see aspects of external configuration in the technologies we used? Provide examples
+
+## Session 21-Nov-2022 cancelled
+
+## Session 28-Nov-2022 Persistence & Spring Data JPA
+
+* Spring Data
+* Concept of entities and repositories
+* JPA and JDBC basics
+* H2, PostgeSQL, MySQL - configuration via Spring Boot profiles
+* Running databases as Docker images
+
+![Spring Data Components](pics/spring_data_overview.png)
+
+### Objectives and exercises
+_The student is able to build a Spring Boot application (or extend an existing one) with Spring Data configuration. The exercise is to create an application, which performs CRUD operations on a database backend. The database can either be in-memory (H2) or a (containerized) PostgreSQL. Optional: Provide a docker-compose file to stand up a multi-container environment with application and database._
+
+### Review Questions
+
+* "WHY" persistence? "WHY" persistence frameworks like JPA?
+* Describe the necessary components to build an application with Spring Data? Potentially sketch
+* What does the annotation @Entity do? 
+* How could docker compose help if you have a persistence-based application?
+
+## Session 05-Dev-2022 Advanced Docker - docker-compose & network
+
+![Docker simplified image build and push mechanism](pics/docker_simplified_image_build_and_push.excalidraw.png)
+
+![Docker run and equivalent docker-compose file simplified](pics/docker_run_vs_compose.excalidraw.png)
+
+## Session 12-Dec-2022 Advanced Docker - volumes & docker-compose recap
+
+![Docker & Microservice full landscape](pics/full_landscape_docker_and_microservices.excalidraw.png)
+
+### Review questions
+
+* "WHY" do you need an enterprise architecture? What are the requirements?
+* How can you solve these problems with framework or containers?
+* "At which do you need more?"
+* "What else do you need?"
