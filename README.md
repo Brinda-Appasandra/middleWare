@@ -179,7 +179,7 @@ Links:
 * CRUD operations between applications
 * Connect Thymeleaf and WebClient functionality
 
-=== Objectives and exercises
+### Objectives and exercises
 _The student is able to understand web UIs using Thymeleaf technologie. The student understands the WebClient as default REST Client for Spring Boot applications and is able to implement CRUD operations with a REST API. In the exercise combine both technologies to provide a graphical web UI to interact with a REST API of another service._
 
 ![REST Communication Options](pics/frontend_backend.png)
