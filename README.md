@@ -204,15 +204,45 @@ _The student is able to build a Spring Boot application (or extend an existing o
 * What does the annotation @Entity do? 
 * How could docker compose help if you have a persistence-based application?
 
-## Session 09-Dec-2022 Advanced Docker - docker-compose & network
+## Session 09-Dec-2022 Advanced Container - docker-compose & network
 
 ![Docker simplified image build and push mechanism](pics/docker_simplified_image_build_and_push.excalidraw.png)
 
 ![Docker run and equivalent docker-compose file simplified](pics/docker_run_vs_compose.excalidraw.png)
 
-## Session 16-Dec-2022 Advanced Docker - volumes & docker-compose recap
-
 ![Docker & Microservice full landscape](pics/full_landscape_docker_and_microservices.excalidraw.png)
+
+## Session 16-Dec-2022 Advanced Container - volumes & docker-compose , container build options
+
+
+* Difference and relation between container and container images
+* Concepts of image layers
+* "docker commit"
+* History of Dockerfile. Initial, multi-stage & BuildKit
+* Building container for Java apps
+* Using Jib, Cloud-Native Buildpacks and Paketo
+
+![Container Build Options](pics/container_build_options.png)
+
+### Objectives and exercises
+_The student understands the relation between container image and container, how to instantiate a container from an image and how to commit to a new image from an existing container. The exercise is to build the previous Spring Boot application and put it into a container image using various options, e.g. different Dockerfile options, Google JIB, CND, Paketo and more ...? The student is aware and able to describe on a high-level what the different fundamentals of the various approaches are and is able to list advantages and disadvantages._
+
+### Links
+
+* https://docs.docker.com/engine/reference/builder/
+* https://buildpacks.io/
+* https://paketo.io/
+* https://github.com/maeddes/options-galore-container-build/blob/main/walkthrough.adoc
+* https://github.com/GoogleContainerTools/jib
+
+=== Review questions
+
+* List 3 different options to build a container image
+* Explain docker build vs docker commit 
+* List 2 evolution steps of the Dockerfile and provide 1 improvement for each step 
+* Explain or list 1 advantage&disadvantage comparing JIB and Paketo/CNB to original Dockerfiles
+* How is a container image build up internally?
+* Which are criterias you can think that make image building "better" 
 
 ## Session 23-Dec-2022 Microservices (Theory)
 
