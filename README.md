@@ -42,6 +42,8 @@ cloud computing in own words and list examples for offerings, topologies and tec
 
 ## Session 14-Oct-2022 Docker Exercises (unattended lecture)
 
+![Lab Overview](pics/container_exercises.png)
+
 * https://hfthse.trainings.nvtc.io/
 
 ## Session 21-Oct-2022 Container Technology
@@ -170,6 +172,15 @@ Links:
 * Describe in your own words the mapping of REST calls to database (SQL) and CRUD calls
 
 ## Session 11-Nov-2022 Frontend <- REST -> Backend Options: OpenAPI, Swagger, Thymeleaf, WebClient
+
+* Use OpenAPI and Swagger as built-in documenation for the REST API
+* Use WebClient as REST client within an application
+* Build a graphical web UI using Thymeleaf
+* CRUD operations between applications
+* Connect Thymeleaf and WebClient functionality
+
+=== Objectives and exercises
+_The student is able to understand web UIs using Thymeleaf technologie. The student understands the WebClient as default REST Client for Spring Boot applications and is able to implement CRUD operations with a REST API. In the exercise combine both technologies to provide a graphical web UI to interact with a REST API of another service._
 
 ![REST Communication Options](pics/frontend_backend.png)
 
