@@ -212,6 +212,26 @@ _The student is able to build a Spring Boot application (or extend an existing o
 
 ![Docker & Microservice full landscape](pics/full_landscape_docker_and_microservices.excalidraw.png)
 
+* Docker networks
+* Docker volumes
+* Docker-compose
+
+### Objectives
+_The student understands the Docker functionality of networks and volumes. This includes the ability to create volumes and networks and connect them to container instances. The student is able to build container landscapes by using docker run, docker network and docker volume CLI API commands on the one hand, but also how to do equivalent things using docker-compose._
+
+### Links
+
+* https://docs.docker.com/network/
+* https://docs.docker.com/storage/
+* https://docs.docker.com/compose/
+
+### Review Questions
+
+* What's the difference between docker run and docker-compose?
+* Which advantages does docker-compose bring over plain docker commands?
+* What's the difference in handling docker networks and docker volumes from the perspective of a running container?
+* Which 12-factor aspects can you identify in the context of docker?
+
 ## Session 16-Dec-2022 Advanced Container - volumes & docker-compose , container build options
 
 
