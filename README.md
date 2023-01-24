@@ -287,6 +287,9 @@ _The student knows about the evolution of distributed systems (and middleware) a
 * "WHY" is external configuration important in cloud-native software?
 * Where did you see aspects of external configuration in the technologies we used? Provide examples
 
+### Advantages and limitations of container technology without orchestration
+![](pics/container_advantages_limitations.excalidraw.png)
+
 ## Session 13-Jan-2023 / 20-Jan-2023 Module: Kubernetes Intro
 
 * Presentation: Cloud Platforms & Kubernetes
@@ -300,7 +303,8 @@ _The student knows about the evolution of distributed systems (and middleware) a
 ### Objectives and exercises
 _The student understands the requirements and expectations towards cloud platforms and is able to list them. She/he can explain the advantages over standard container operation with Docker. The exercise is to take a sample Spring Boot application and walk through the steps to containerize and deploy to Kubernetes. The student is aware about various options for local and remote Kubernetes options._
 
-image:images/kubernetes_overview.png[Kubernetes in a nutshell]
+![Kubernetes in a nutshell](pics/kubernetes_basic_objects.excalidraw.png)
+ 
 
 ### Review questions
 
