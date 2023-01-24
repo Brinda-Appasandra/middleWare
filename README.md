@@ -266,3 +266,43 @@ _The student knows about the evolution of distributed systems (and middleware) a
 * How do the 12-factor application "methodology" relate to the technologies that we covered in this semester? (important)
 * "WHY" is external configuration important in cloud-native software?
 * Where did you see aspects of external configuration in the technologies we used? Provide examples
+
+## Session 13-Jan-2023 / 20-Jan-2023 Module: Kubernetes Intro
+
+* Presentation: Cloud Platforms & Kubernetes
+* Kubernetes Background
+* What is CaaS?
+* Cluster & Node Concept
+* Behaviour scenarios of Kubernetes in Action
+* Base API objects: Deployments, ReplicaSets, Pods, Services
+* Intro into kubectl 
+  
+### Objectives and exercises
+_The student understands the requirements and expectations towards cloud platforms and is able to list them. She/he can explain the advantages over standard container operation with Docker. The exercise is to take a sample Spring Boot application and walk through the steps to containerize and deploy to Kubernetes. The student is aware about various options for local and remote Kubernetes options._
+
+image:images/kubernetes_overview.png[Kubernetes in a nutshell]
+
+### Review questions
+
+* Please write 100 lines of YAML Code :)
+* Explain the relation of "some" of the 12 factors in relation to Kubernetes
+* Explain the core principe of Kubernetes in own words. "Why" Kubernetes?
+* What is pod? What is a service? What is a deployment?
+* Which kind of Kubernetes providers do you know? Can they be grouped somehow?
+
+### Links
+
+* https://docs.docker.com/engine/reference/commandline/compose_build/
+* https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
+* https://www.baeldung.com/spring-value-annotation
+
+### Links - Kubernetes Options
+
+* https://github.com/learnk8s/free-kubernetes (Overview)
+
+* https://www.katacoda.com/courses/kubernetes/playground (web-based)
+* https://training.play-with-kubernetes.com/ (web-based, broken?)
+
+* https://kind.sigs.k8s.io/docs/user/quick-start/ (local)
+* https://minikube.sigs.k8s.io/docs/ (local)
+* https://docs.docker.com/get-started/kube-deploy/ (local)
